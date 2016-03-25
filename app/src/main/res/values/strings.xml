@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Sentinel</string>
+
+    <string name="title_section1">Tag Checker</string>
+    <string name="title_section2">Update</string>
+    <string name="title_section3">Not Used</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="tag_number">Tag Number</string>
+
+    <string name="update">Update</string>
+</resources>

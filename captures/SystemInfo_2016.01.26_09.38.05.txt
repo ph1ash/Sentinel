@@ -1,0 +1,82 @@
+Applications Memory Usage (kB):
+Uptime: 295697 Realtime: 295697
+
+Total PSS by process:
+   227462 kB: org.mozilla.firefox (pid 1032)
+    39881 kB: system (pid 397)
+    25452 kB: com.android.systemui (pid 526)
+    24796 kB: Leica.ZenoConnect (pid 690)
+    22982 kB: com.android.inputmethod.latin (pid 620)
+    21385 kB: com.android.launcher (pid 647)
+    21223 kB: com.android.settings (pid 740)
+    13661 kB: android.process.acore (pid 604)
+    11251 kB: me.onemobile.android (pid 791)
+     7347 kB: org.mozilla.firefox.UpdateService (pid 1413)
+     7224 kB: com.android.phone (pid 629)
+     6041 kB: android.process.media (pid 588)
+     5473 kB: com.android.email (pid 919)
+     3813 kB: com.android.calendar (pid 1061)
+     3803 kB: com.yanyan.cputemp (pid 1045)
+     3723 kB: com.android.contacts (pid 887)
+     3525 kB: com.android.deskclock (pid 900)
+     3491 kB: com.android.providers.calendar (pid 870)
+     3398 kB: com.android.exchange (pid 938)
+     3164 kB: com.android.music (pid 714)
+     2565 kB: device.apps.startup (pid 971)
+     2431 kB: com.android.musicfx (pid 1161)
+     2422 kB: com.android.location.fused (pid 759)
+     2343 kB: com.android.smspush (pid 734)
+
+Total PSS by OOM adjustment:
+    39881 kB: System
+               39881 kB: system (pid 397)
+    32676 kB: Persistent
+               25452 kB: com.android.systemui (pid 526)
+                7224 kB: com.android.phone (pid 629)
+   227462 kB: Foreground
+              227462 kB: org.mozilla.firefox (pid 1032)
+    27139 kB: Visible
+               24796 kB: Leica.ZenoConnect (pid 690)
+                2343 kB: com.android.smspush (pid 734)
+    25404 kB: Perceptible
+               22982 kB: com.android.inputmethod.latin (pid 620)
+                2422 kB: com.android.location.fused (pid 759)
+    11251 kB: A Services
+               11251 kB: me.onemobile.android (pid 791)
+    21385 kB: Home
+               21385 kB: com.android.launcher (pid 647)
+    21223 kB: Previous
+               21223 kB: com.android.settings (pid 740)
+     6041 kB: B Services
+                6041 kB: android.process.media (pid 588)
+    56394 kB: Background
+               13661 kB: android.process.acore (pid 604)
+                7347 kB: org.mozilla.firefox.UpdateService (pid 1413)
+                5473 kB: com.android.email (pid 919)
+                3813 kB: com.android.calendar (pid 1061)
+                3803 kB: com.yanyan.cputemp (pid 1045)
+                3723 kB: com.android.contacts (pid 887)
+                3525 kB: com.android.deskclock (pid 900)
+                3491 kB: com.android.providers.calendar (pid 870)
+                3398 kB: com.android.exchange (pid 938)
+                3164 kB: com.android.music (pid 714)
+                2565 kB: device.apps.startup (pid 971)
+                2431 kB: com.android.musicfx (pid 1161)
+
+Total PSS by category:
+   166118 kB: Unknown
+   107687 kB: Other dev
+    73095 kB: Dalvik
+    30559 kB: .apk mmap
+    29052 kB: .so mmap
+    28867 kB: Ashmem
+    24571 kB: Other mmap
+     7892 kB: .dex mmap
+      897 kB: Native
+       90 kB: .ttf mmap
+       16 kB: Cursor
+       12 kB: .jar mmap
+
+Total PSS: 468856 kB
+      KSM: 0 kB saved from shared 0 kB
+           0 kB unshared; 0 kB volatile

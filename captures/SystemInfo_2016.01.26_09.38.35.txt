@@ -1,0 +1,508 @@
+ACTIVITY MANAGER PENDING INTENTS (dumpsys activity intents)
+  * PendingIntentRecord{424519a8 android startActivity}
+  * PendingIntentRecord{4224a528 android broadcastIntent}
+  * PendingIntentRecord{422f0a78 android startActivity}
+  * PendingIntentRecord{423aa948 android startActivity}
+  * PendingIntentRecord{422d2c70 android broadcastIntent}
+  * PendingIntentRecord{424bcf58 com.android.providers.calendar broadcastIntent}
+  * PendingIntentRecord{424748e8 com.android.email startService}
+  * PendingIntentRecord{4229cb78 android broadcastIntent}
+  * PendingIntentRecord{4224a718 android broadcastIntent}
+  * PendingIntentRecord{4262b5e0 android broadcastIntent}
+  * PendingIntentRecord{42494f80 com.android.phone broadcastIntent}
+  * PendingIntentRecord{4225b838 android broadcastIntent}
+  * PendingIntentRecord{42459038 android startActivity}
+  * PendingIntentRecord{42224f78 android broadcastIntent}
+  * PendingIntentRecord{42244eb8 android broadcastIntent}
+  * PendingIntentRecord{424c74b8 org.mozilla.firefox startService}
+  * PendingIntentRecord{4229ca10 android broadcastIntent}
+  * PendingIntentRecord{424b95d0 Leica.ZenoConnect broadcastIntent}
+  * PendingIntentRecord{42247c08 android broadcastIntent}
+  * PendingIntentRecord{421e9ff8 android broadcastIntent}
+  * PendingIntentRecord{4210cd00 android broadcastIntent}
+  * PendingIntentRecord{422536d8 org.mozilla.firefox startService}
+  * PendingIntentRecord{42476708 com.android.phone broadcastIntent}
+  * PendingIntentRecord{423bc7d8 com.android.deskclock broadcastIntent}
+  * PendingIntentRecord{422bd1f0 me.onemobile.android broadcastIntent}
+  * PendingIntentRecord{42464628 com.android.calendar broadcastIntent}
+  * PendingIntentRecord{42469cb0 com.android.providers.calendar broadcastIntent}
+  * PendingIntentRecord{422d2df8 android broadcastIntent}
+  * PendingIntentRecord{42464420 com.android.music broadcastIntent}
+  * PendingIntentRecord{423a8268 org.mozilla.firefox startService}
+  * PendingIntentRecord{42243d60 android broadcastIntent}
+  * PendingIntentRecord{42467fd8 Leica.ZenoConnect broadcastIntent}
+  * PendingIntentRecord{422894d0 android broadcastIntent}
+ 
+ACTIVITY MANAGER BROADCAST STATE (dumpsys activity broadcasts)
+  Historical broadcasts [foreground]:
+  #0: BroadcastRecord{426d8bd8 u-1 android.intent.action.CLOSE_SYSTEM_DIALOGS}
+    act=android.intent.action.CLOSE_SYSTEM_DIALOGS flg=0x50000010 (has extras)
+    extras: Bundle[{reason=homekey}]
+  #1: BroadcastRecord{425a2520 u-1 android.intent.action.CLOSE_SYSTEM_DIALOGS}
+    act=android.intent.action.CLOSE_SYSTEM_DIALOGS flg=0x50000010 (has extras)
+    extras: Bundle[{reason=homekey}]
+  #2: BroadcastRecord{42549288 u-1 android.intent.action.CONFIGURATION_CHANGED}
+    act=android.intent.action.CONFIGURATION_CHANGED flg=0x70000010
+  #3: BroadcastRecord{4251d008 u-1 android.intent.action.CONFIGURATION_CHANGED}
+    act=android.intent.action.CONFIGURATION_CHANGED flg=0x70000010
+  #4: BroadcastRecord{42473878 u-1 android.intent.action.USER_SWITCHED}
+    act=android.intent.action.USER_SWITCHED flg=0x50000010 (has extras)
+    extras: Bundle[{android.intent.extra.user_handle=0}]
+  #5: BroadcastRecord{4246c2b0 u0 android.intent.action.USER_STARTED}
+    act=android.intent.action.USER_STARTED flg=0x50000010 (has extras)
+    extras: Bundle[{android.intent.extra.user_handle=0}]
+  #6: BroadcastRecord{4226cc18 u-1 android.intent.action.CLOSE_SYSTEM_DIALOGS}
+    act=android.intent.action.CLOSE_SYSTEM_DIALOGS flg=0x50000010 (has extras)
+    extras: Bundle[{reason=lock}]
+  #7: BroadcastRecord{42452cb0 u-1 android.intent.action.CONFIGURATION_CHANGED}
+    act=android.intent.action.CONFIGURATION_CHANGED flg=0x70000010
+  #8: BroadcastRecord{422ced48 u-1 android.intent.action.CONFIGURATION_CHANGED}
+    act=android.intent.action.CONFIGURATION_CHANGED flg=0x70000010
+
+  Historical broadcasts [background]:
+  #0: BroadcastRecord{42613898 u-1 android.intent.action.BATTERY_CHANGED}
+    act=android.intent.action.BATTERY_CHANGED flg=0x60000010 (has extras)
+    extras: Bundle[{scale=100, backup_status=5, backup_level=100, technology=Li-ion, status=2, backup_voltage=4224360, power_state=0, invalid_charger=0, health=2, temperature=318, icon-small=17302839, present=true, level=92, voltage=4028, plugged=2}]
+  #1: BroadcastRecord{426d3f48 u-1 android.intent.action.BATTERY_CHANGED}
+    act=android.intent.action.BATTERY_CHANGED flg=0x60000010 (has extras)
+    extras: Bundle[{scale=100, backup_status=5, backup_level=100, technology=Li-ion, status=2, backup_voltage=4228105, power_state=0, invalid_charger=0, health=2, temperature=317, icon-small=17302839, present=true, level=92, voltage=4053, plugged=2}]
+  #2: BroadcastRecord{4251fe68 u-1 android.net.wifi.SCAN_RESULTS}
+    act=android.net.wifi.SCAN_RESULTS flg=0x8000010
+  #3: BroadcastRecord{42486eb0 u-1 android.intent.action.BATTERY_CHANGED}
+    act=android.intent.action.BATTERY_CHANGED flg=0x60000010 (has extras)
+    extras: Bundle[{scale=100, backup_status=5, backup_level=100, technology=Li-ion, status=2, backup_voltage=4224360, power_state=0, invalid_charger=0, health=2, temperature=317, icon-small=17302839, present=true, level=92, voltage=4052, plugged=2}]
+  #4: BroadcastRecord{424df6b0 u-1 android.intent.action.BATTERY_CHANGED}
+    act=android.intent.action.BATTERY_CHANGED flg=0x60000010 (has extras)
+    extras: Bundle[{scale=100, backup_status=5, backup_level=100, technology=Li-ion, status=2, backup_voltage=4228105, power_state=0, invalid_charger=0, health=2, temperature=317, icon-small=17302839, present=true, level=92, voltage=4036, plugged=2}]
+  #5: BroadcastRecord{422e75c8 u-1 android.intent.action.BATTERY_CHANGED}
+    act=android.intent.action.BATTERY_CHANGED flg=0x60000010 (has extras)
+    extras: Bundle[{scale=100, backup_status=5, backup_level=100, technology=Li-ion, status=2, backup_voltage=4224360, power_state=0, invalid_charger=0, health=2, temperature=316, icon-small=17302839, present=true, level=92, voltage=4024, plugged=2}]
+  #6: BroadcastRecord{424d6910 u-1 android.intent.action.TIME_TICK}
+    act=android.intent.action.TIME_TICK flg=0x40000014 (has extras)
+    extras: Bundle[{android.intent.extra.ALARM_COUNT=1}]
+  #7: BroadcastRecord{42619430 u-1 android.intent.action.BATTERY_CHANGED}
+    act=android.intent.action.BATTERY_CHANGED flg=0x60000010 (has extras)
+    extras: Bundle[{scale=100, backup_status=5, backup_level=100, technology=Li-ion, status=2, backup_voltage=4228105, power_state=0, invalid_charger=0, health=2, temperature=316, icon-small=17302839, present=true, level=92, voltage=4031, plugged=2}]
+  #8: BroadcastRecord{422e2910 u-1 android.intent.action.BATTERY_CHANGED}
+    act=android.intent.action.BATTERY_CHANGED flg=0x60000010 (has extras)
+    extras: Bundle[{scale=100, backup_status=5, backup_level=100, technology=Li-ion, status=2, backup_voltage=4228105, power_state=0, invalid_charger=0, health=2, temperature=316, icon-small=17302839, present=true, level=92, voltage=4039, plugged=2}]
+  #9: BroadcastRecord{424dc0c0 u-1 android.intent.action.BATTERY_CHANGED}
+    act=android.intent.action.BATTERY_CHANGED flg=0x60000010 (has extras)
+    extras: Bundle[{scale=100, backup_status=5, backup_level=100, technology=Li-ion, status=2, backup_voltage=4228105, power_state=0, invalid_charger=0, health=2, temperature=316, icon-small=17302839, present=true, level=92, voltage=4036, plugged=2}]
+  #10: BroadcastRecord{424e0ad0 u-1 android.net.wifi.SCAN_RESULTS}
+    act=android.net.wifi.SCAN_RESULTS flg=0x8000010
+  #11: BroadcastRecord{424e1c20 u-1 android.intent.action.BATTERY_CHANGED}
+    act=android.intent.action.BATTERY_CHANGED flg=0x60000010 (has extras)
+    extras: Bundle[{scale=100, backup_status=5, backup_level=100, technology=Li-ion, status=2, backup_voltage=4228105, power_state=0, invalid_charger=0, health=2, temperature=315, icon-small=17302839, present=true, level=92, voltage=4040, plugged=2}]
+  #12: BroadcastRecord{425082d8 u0 com.android.internal.telephony.gprs-data-stall}
+    act=com.android.internal.telephony.gprs-data-stall flg=0x14 (has extras)
+    extras: Bundle[{data.stall.alram.tag=19277, android.intent.extra.ALARM_COUNT=1}]
+  #13: BroadcastRecord{4224d760 u-1 android.intent.action.BATTERY_CHANGED}
+    act=android.intent.action.BATTERY_CHANGED flg=0x60000010 (has extras)
+    extras: Bundle[{scale=100, backup_status=5, backup_level=100, technology=Li-ion, status=2, backup_voltage=4228105, power_state=0, invalid_charger=0, health=2, temperature=315, icon-small=17302839, present=true, level=92, voltage=4033, plugged=2}]
+  #14: BroadcastRecord{422fa888 u-1 android.intent.action.BATTERY_CHANGED}
+    act=android.intent.action.BATTERY_CHANGED flg=0x60000010 (has extras)
+    extras: Bundle[{scale=100, backup_status=5, backup_level=100, technology=Li-ion, status=2, backup_voltage=4228105, power_state=0, invalid_charger=0, health=2, temperature=315, icon-small=17302839, present=true, level=92, voltage=4027, plugged=2}]
+  #15: BroadcastRecord{424d6bb8 u-1 android.intent.action.BATTERY_CHANGED}
+    act=android.intent.action.BATTERY_CHANGED flg=0x60000010 (has extras)
+    extras: Bundle[{scale=100, backup_status=5, backup_level=100, technology=Li-ion, status=2, backup_voltage=4228105, power_state=0, invalid_charger=0, health=2, temperature=315, icon-small=17302839, present=true, level=92, voltage=4035, plugged=2}]
+  #16: BroadcastRecord{424fdba8 u-1 com.android.server.action.NETWORK_STATS_UPDATED}
+    act=com.android.server.action.NETWORK_STATS_UPDATED flg=0x40000010
+  #17: BroadcastRecord{42543998 u-1 android.intent.action.BATTERY_CHANGED}
+    act=android.intent.action.BATTERY_CHANGED flg=0x60000010 (has extras)
+    extras: Bundle[{scale=100, backup_status=5, backup_level=100, technology=Li-ion, status=2, backup_voltage=4228105, power_state=0, invalid_charger=0, health=2, temperature=314, icon-small=17302839, present=true, level=92, voltage=4045, plugged=2}]
+  #18: BroadcastRecord{424d13c8 u-1 android.intent.action.BATTERY_CHANGED}
+    act=android.intent.action.BATTERY_CHANGED flg=0x60000010 (has extras)
+    extras: Bundle[{scale=100, backup_status=5, backup_level=100, technology=Li-ion, status=2, backup_voltage=4228105, power_state=0, invalid_charger=0, health=2, temperature=314, icon-small=17302839, present=true, level=92, voltage=4035, plugged=2}]
+  #19: BroadcastRecord{422c37e0 u-1 android.net.wifi.SCAN_RESULTS}
+    act=android.net.wifi.SCAN_RESULTS flg=0x8000010
+  #20: BroadcastRecord{4251c288 u-1 android.intent.action.BATTERY_CHANGED}
+    act=android.intent.action.BATTERY_CHANGED flg=0x60000010 (has extras)
+    extras: Bundle[{scale=100, backup_status=5, backup_level=100, technology=Li-ion, status=2, backup_voltage=4231850, power_state=0, invalid_charger=0, health=2, temperature=314, icon-small=17302839, present=true, level=92, voltage=4060, plugged=2}]
+  #21: BroadcastRecord{4251cd38 u-1 android.intent.action.BATTERY_CHANGED}
+    act=android.intent.action.BATTERY_CHANGED flg=0x60000010 (has extras)
+    extras: Bundle[{scale=100, backup_status=5, backup_level=100, technology=Li-ion, status=2, backup_voltage=4231850, power_state=0, invalid_charger=0, health=2, temperature=314, icon-small=17302839, present=true, level=92, voltage=4018, plugged=2}]
+  #22: BroadcastRecord{426172d8 u-1 android.intent.action.TIME_TICK}
+    act=android.intent.action.TIME_TICK flg=0x40000014 (has extras)
+    extras: Bundle[{android.intent.extra.ALARM_COUNT=1}]
+  #23: BroadcastRecord{426d8fb0 u-1 android.intent.action.BATTERY_CHANGED}
+    act=android.intent.action.BATTERY_CHANGED flg=0x60000010 (has extras)
+    extras: Bundle[{scale=100, backup_status=5, backup_level=100, technology=Li-ion, status=2, backup_voltage=4228105, power_state=0, invalid_charger=0, health=2, temperature=313, icon-small=17302839, present=true, level=92, voltage=4036, plugged=2}]
+  #24: BroadcastRecord{422afe10 u-1 android.intent.action.BATTERY_CHANGED}
+    act=android.intent.action.BATTERY_CHANGED flg=0x60000010 (has extras)
+    extras: Bundle[{scale=100, backup_status=5, backup_level=100, technology=Li-ion, status=2, backup_voltage=4231850, power_state=0, invalid_charger=0, health=2, temperature=313, icon-small=17302839, present=true, level=92, voltage=4025, plugged=2}]
+  #25: act=android.intent.action.BATTERY_CHANGED flg=0x60000010 (has extras)
+    extras: Bundle[{scale=100, backup_status=2, backup_level=100, technology=Li-ion, status=2, backup_voltage=4235595, power_state=0, invalid_charger=0, health=2, temperature=313, icon-small=17302839, present=true, level=92, voltage=4037, plugged=2}]
+  #26: act=android.intent.action.BATTERY_CHANGED flg=0x60000010 (has extras)
+    extras: Bundle[{scale=100, backup_status=2, backup_level=100, technology=Li-ion, status=2, backup_voltage=4235595, power_state=0, invalid_charger=0, health=2, temperature=312, icon-small=17302839, present=true, level=92, voltage=4042, plugged=2}]
+  #27: act=android.net.wifi.SCAN_RESULTS flg=0x8000010
+  #28: act=com.android.internal.telephony.gprs-data-stall flg=0x14 (has extras)
+    extras: Bundle[{data.stall.alram.tag=19276, android.intent.extra.ALARM_COUNT=1}]
+  #29: act=android.intent.action.BATTERY_CHANGED flg=0x60000010 (has extras)
+    extras: Bundle[{scale=100, backup_status=2, backup_level=100, technology=Li-ion, status=2, backup_voltage=4239340, power_state=0, invalid_charger=0, health=2, temperature=312, icon-small=17302839, present=true, level=92, voltage=4022, plugged=2}]
+  #30: act=android.intent.action.BATTERY_CHANGED flg=0x60000010 (has extras)
+    extras: Bundle[{scale=100, backup_status=2, backup_level=100, technology=Li-ion, status=2, backup_voltage=4235595, power_state=0, invalid_charger=0, health=2, temperature=312, icon-small=17302839, present=true, level=92, voltage=4027, plugged=2}]
+  #31: act=android.intent.action.BATTERY_CHANGED flg=0x60000010 (has extras)
+    extras: Bundle[{scale=100, backup_status=2, backup_level=100, technology=Li-ion, status=2, backup_voltage=4235595, power_state=0, invalid_charger=0, health=2, temperature=312, icon-small=17302839, present=true, level=92, voltage=4023, plugged=2}]
+  #32: act=android.intent.action.BATTERY_CHANGED flg=0x60000010 (has extras)
+    extras: Bundle[{scale=100, backup_status=2, backup_level=100, technology=Li-ion, status=2, backup_voltage=4235595, power_state=0, invalid_charger=0, health=2, temperature=312, icon-small=17302839, present=true, level=92, voltage=4036, plugged=2}]
+  #33: act=android.intent.action.BATTERY_CHANGED flg=0x60000010 (has extras)
+    extras: Bundle[{scale=100, backup_status=2, backup_level=100, technology=Li-ion, status=2, backup_voltage=4235595, power_state=0, invalid_charger=0, health=2, temperature=311, icon-small=17302839, present=true, level=92, voltage=4036, plugged=2}]
+  #34: act=android.intent.action.BATTERY_CHANGED flg=0x60000010 (has extras)
+    extras: Bundle[{scale=100, backup_status=2, backup_level=100, technology=Li-ion, status=2, backup_voltage=4239340, power_state=0, invalid_charger=0, health=2, temperature=311, icon-small=17302839, present=true, level=92, voltage=4053, plugged=2}]
+  #35: act=android.net.wifi.SCAN_RESULTS flg=0x8000010
+  #36: act=android.intent.action.BATTERY_CHANGED flg=0x60000010 (has extras)
+    extras: Bundle[{scale=100, backup_status=2, backup_level=100, technology=Li-ion, status=2, backup_voltage=4239340, power_state=0, invalid_charger=0, health=2, temperature=311, icon-small=17302839, present=true, level=92, voltage=4056, plugged=2}]
+  #37: act=android.intent.action.BATTERY_CHANGED flg=0x60000010 (has extras)
+    extras: Bundle[{scale=100, backup_status=2, backup_level=100, technology=Li-ion, status=2, backup_voltage=4239340, power_state=0, invalid_charger=0, health=2, temperature=311, icon-small=17302839, present=true, level=92, voltage=4051, plugged=2}]
+  #38: act=android.intent.action.TIME_TICK flg=0x40000014 (has extras)
+    extras: Bundle[{android.intent.extra.ALARM_COUNT=1}]
+  #39: act=android.intent.action.BATTERY_CHANGED flg=0x60000010 (has extras)
+    extras: Bundle[{scale=100, backup_status=2, backup_level=100, technology=Li-ion, status=2, backup_voltage=4239340, power_state=0, invalid_charger=0, health=2, temperature=311, icon-small=17302839, present=true, level=92, voltage=4039, plugged=2}]
+  #40: act=android.intent.action.BATTERY_CHANGED flg=0x60000010 (has extras)
+    extras: Bundle[{scale=100, backup_status=2, backup_level=100, technology=Li-ion, status=2, backup_voltage=4235595, power_state=0, invalid_charger=0, health=2, temperature=311, icon-small=17302839, present=true, level=92, voltage=4048, plugged=2}]
+  #41: act=android.intent.action.BATTERY_CHANGED flg=0x60000010 (has extras)
+    extras: Bundle[{scale=100, backup_status=2, backup_level=100, technology=Li-ion, status=2, backup_voltage=4235595, power_state=0, invalid_charger=0, health=2, temperature=310, icon-small=17302839, present=true, level=92, voltage=4037, plugged=2}]
+  #42: act=android.net.conn.CONNECTIVITY_CHANGE flg=0x8000010 (has extras)
+    extras: Bundle[{extraInfo="emp-vmc", networkType=1, networkInfo=NetworkInfo: type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: "emp-vmc", roaming: false, failover: false, isAvailable: true, inetCondition=0}]
+  #43: act=android.net.conn.CONNECTIVITY_CHANGE flg=0x8000010 (has extras)
+    extras: Bundle[{isFailover=true, networkType=0, otherNetwork=NetworkInfo: type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: "emp-vmc", roaming: false, failover: false, isAvailable: true, reason=dataDisabled, inetCondition=0, extraInfo=wap.cingular, networkInfo=NetworkInfo: type: mobile[HSPA], state: DISCONNECTED/DISCONNECTED, reason: dataDisabled, extra: wap.cingular, roaming: false, failover: true, isAvailable: true}]
+  #44: act=android.net.conn.CONNECTIVITY_CHANGE flg=0x8000010 (has extras)
+    extras: Bundle[{extraInfo="emp-vmc", networkType=1, networkInfo=NetworkInfo: type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: "emp-vmc", roaming: false, failover: false, isAvailable: true, inetCondition=0}]
+  #45: act=android.net.conn.CONNECTIVITY_CHANGE flg=0x8000010 (has extras)
+    extras: Bundle[{isFailover=true, networkType=0, otherNetwork=NetworkInfo: type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: "emp-vmc", roaming: false, failover: false, isAvailable: true, reason=dataDisabled, inetCondition=0, extraInfo=wap.cingular, networkInfo=NetworkInfo: type: mobile[HSPA], state: DISCONNECTED/DISCONNECTED, reason: dataDisabled, extra: wap.cingular, roaming: false, failover: true, isAvailable: true}]
+  #46: act=android.net.conn.CONNECTIVITY_CHANGE flg=0x8000010 (has extras)
+    extras: Bundle[{extraInfo="emp-vmc", networkType=1, networkInfo=NetworkInfo: type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: "emp-vmc", roaming: false, failover: false, isAvailable: true, inetCondition=0}]
+  #47: act=android.net.conn.CONNECTIVITY_CHANGE flg=0x8000010 (has extras)
+    extras: Bundle[{extraInfo="emp-vmc", networkType=1, networkInfo=NetworkInfo: type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: "emp-vmc", roaming: false, failover: false, isAvailable: true, inetCondition=0}]
+  #48: act=android.net.conn.CONNECTIVITY_CHANGE flg=0x8000010 (has extras)
+    extras: Bundle[{extraInfo=wap.cingular, networkType=0, reason=dataEnabled, networkInfo=NetworkInfo: type: mobile[HSPA], state: CONNECTED/CONNECTED, reason: dataEnabled, extra: wap.cingular, roaming: false, failover: false, isAvailable: true, inetCondition=0}]
+  #49: act=android.net.conn.CONNECTIVITY_CHANGE flg=0x8000010 (has extras)
+    extras: Bundle[{extraInfo=wap.cingular, networkType=0, reason=dataEnabled, networkInfo=NetworkInfo: type: mobile[HSPA], state: CONNECTED/CONNECTED, reason: dataEnabled, extra: wap.cingular, roaming: false, failover: false, isAvailable: true, inetCondition=0}]
+  ...
+
+  Sticky broadcasts for user -1:
+  * Sticky action android.media.SCO_AUDIO_STATE_CHANGED
+  * Sticky action android.hardware.usb.action.USB_STATE
+  * Sticky action android.provider.Telephony.SPN_STRINGS_UPDATED
+  * Sticky action android.net.nsd.STATE_CHANGED
+  * Sticky action android.intent.action.BATTERY_CHANGED
+  * Sticky action android.net.wifi.p2p.PERSISTENT_GROUPS_CHANGED
+  * Sticky action android.net.wifi.p2p.CONNECTION_STATE_CHANGE
+  * Sticky action android.intent.action.SIM_STATE_CHANGED
+  * Sticky action android.intent.action.SIG_STR
+  * Sticky action android.intent.action.SERVICE_STATE
+  * Sticky action android.intent.action.NETWORK_SET_TIME
+  * Sticky action android.intent.action.HDMI_PLUGGED
+  * Sticky action android.media.ACTION_SCO_AUDIO_STATE_UPDATED
+  * Sticky action android.net.thrott.THROTTLE_ACTION
+  * Sticky action android.media.MASTER_MUTE_CHANGED_ACTION
+  * Sticky action android.intent.action.NETWORK_SET_TIMEZONE
+  * Sticky action android.net.wifi.p2p.THIS_DEVICE_CHANGED
+  * Sticky action android.net.conn.CONNECTIVITY_CHANGE_IMMEDIATE
+  * Sticky action android.net.conn.CONNECTIVITY_CHANGE
+  * Sticky action android.net.wifi.RSSI_CHANGED
+  * Sticky action android.net.wifi.supplicant.STATE_CHANGE
+  * Sticky action android.net.conn.TETHER_STATE_CHANGED
+  * Sticky action android.net.wifi.WIFI_STATE_CHANGED
+  * Sticky action android.net.thrott.POLL_ACTION
+  * Sticky action android.net.wifi.STATE_CHANGE
+  * Sticky action android.media.RINGER_MODE_CHANGED
+  * Sticky action android.os.UpdateLock.UPDATE_LOCK_CHANGED
+  * Sticky action android.intent.action.ANY_DATA_STATE
+  * Sticky action android.net.wifi.p2p.STATE_CHANGED
+
+  Sticky broadcasts for user 0:
+  * Sticky action com.android.music.metachanged
+  * Sticky action com.android.music.queuechanged
+ 
+ACTIVITY MANAGER CONTENT PROVIDERS (dumpsys activity providers)
+  Published single-user content providers (by class):
+  * ContentProviderRecord{42476f08 u0 com.android.phone/.IccProvider}
+    proc=ProcessRecord{42462b50 629:com.android.phone/1001}
+    singleton=true
+    authority=icc
+  * ContentProviderRecord{42155670 u0 com.android.providers.settings/.SettingsProvider}
+    proc=ProcessRecord{421aa0e0 397:system/1000}
+    singleton=true
+    authority=settings
+    9 connections, 0 external handles
+      -> 526:com.android.systemui/u0a10045 s1/1 u0/0 +5m8s525ms
+      -> 629:com.android.phone/1001 s1/1 u0/0 +5m7s576ms
+      -> 620:com.android.inputmethod.latin/u0a10021 s1/1 u0/0 +5m7s570ms
+      -> 740:com.android.settings/1000 s1/1 u0/0 +5m6s687ms
+      -> 791:me.onemobile.android/u0a10050 s1/1 u0/0 +5m5s538ms
+      -> 900:com.android.deskclock/u0a10011 s1/1 u0/0 +5m4s499ms
+      -> 588:android.process.media/u0a10012 s1/1 u0/0 +5m3s130ms
+      -> 647:com.android.launcher/u0a10022 s1/1 u0/0 +3m11s220ms
+      -> 1032:org.mozilla.firefox/u0a10051 s1/1 u0/0 +3m10s332ms
+
+
+  Published user 0 content providers (by class):
+  * ContentProviderRecord{422d40a8 u0 org.mozilla.firefox/org.mozilla.gecko.db.TabsProvider}
+    proc=ProcessRecord{42485fa8 1032:org.mozilla.firefox/u0a10051}
+    authority=org.mozilla.firefox.db.tabs
+  * ContentProviderRecord{423abd20 u0 com.android.providers.contacts/.VoicemailContentProvider}
+    proc=ProcessRecord{423b52b8 604:android.process.acore/u0a10000}
+    authority=com.android.voicemail
+  * ContentProviderRecord{42462fe0 u0 org.mozilla.firefox/org.mozilla.gecko.background.healthreport.HealthReportProvider}
+    proc=ProcessRecord{42485fa8 1032:org.mozilla.firefox/u0a10051}
+    authority=org.mozilla.firefox.health
+  * ContentProviderRecord{424efbb8 u0 com.android.calendar/.CalendarRecentSuggestionsProvider}
+    proc=ProcessRecord{424c1298 1061:com.android.calendar/u0a10006}
+    authority=com.android.calendar.CalendarRecentSuggestionsProvider
+  * ContentProviderRecord{424a11f0 u0 com.android.email/.provider.EmailProvider}
+    proc=ProcessRecord{424be628 919:com.android.email/u0a10013}
+    authority=com.android.email.provider;com.android.email.notifier
+  * ContentProviderRecord{42519df8 u0 me.onemobile.android/.search.WallpaperSuggestionProvider}
+    proc=ProcessRecord{425095f8 791:me.onemobile.android/u0a10050}
+    authority=me.onemobile.android.searchwallpaper
+  * ContentProviderRecord{424e2ab8 u0 com.android.deskclock/.AlarmProvider}
+    proc=ProcessRecord{42498f98 900:com.android.deskclock/u0a10011}
+    authority=com.android.deskclock
+  * ContentProviderRecord{42487958 u0 com.android.launcher/com.android.launcher2.LauncherProvider}
+    proc=ProcessRecord{42471180 647:com.android.launcher/u0a10022}
+    authority=com.android.launcher2.settings
+  * ContentProviderRecord{424631d8 u0 org.mozilla.firefox/org.mozilla.gecko.db.ReadingListProvider}
+    proc=ProcessRecord{42485fa8 1032:org.mozilla.firefox/u0a10051}
+    authority=org.mozilla.firefox.db.readinglist
+  * ContentProviderRecord{42519eb0 u0 me.onemobile.android/.myapps.AppsStatusProvider}
+    proc=ProcessRecord{425095f8 791:me.onemobile.android/u0a10050}
+    authority=me.onemobile.android.appstatus
+  * ContentProviderRecord{423abfc8 u0 com.android.providers.applications/.ApplicationsProvider}
+    proc=ProcessRecord{423b52b8 604:android.process.acore/u0a10000}
+    authority=applications
+  * ContentProviderRecord{424c0408 u0 Leica.ZenoConnect/mono.MonoRuntimeProvider}
+    proc=ProcessRecord{424afc00 690:Leica.ZenoConnect/1000}
+    authority=Leica.ZenoConnect.mono.MonoRuntimeProvider.__mono_init__
+  * ContentProviderRecord{423abe38 u0 com.android.providers.contacts/.debug.DumpFileProvider}
+    proc=ProcessRecord{423b52b8 604:android.process.acore/u0a10000}
+    authority=com.android.contacts.dumpfile
+  * ContentProviderRecord{424508f0 u0 com.android.providers.media/.MediaProvider}
+    proc=ProcessRecord{4224e3c8 588:android.process.media/u0a10012}
+    authority=media
+  * ContentProviderRecord{42476fc0 u0 com.android.providers.telephony/.MmsProvider}
+    proc=ProcessRecord{42462b50 629:com.android.phone/1001}
+    authority=mms
+  * ContentProviderRecord{42519f68 u0 me.onemobile.android/.push.PushMessageProvider}
+    proc=ProcessRecord{425095f8 791:me.onemobile.android/u0a10050}
+    authority=me.onemobile.android.pushmsg
+  * ContentProviderRecord{424a12d0 u0 com.android.email/.provider.AttachmentProvider}
+    proc=ProcessRecord{424be628 919:com.android.email/u0a10013}
+    authority=com.android.email.attachmentprovider
+  * ContentProviderRecord{42477078 u0 com.android.providers.telephony/.SmsProvider}
+    proc=ProcessRecord{42462b50 629:com.android.phone/1001}
+    authority=sms
+  * ContentProviderRecord{42476e08 u0 com.android.providers.telephony/.TelephonyProvider}
+    proc=ProcessRecord{42462b50 629:com.android.phone/1001}
+    authority=telephony
+  * ContentProviderRecord{422eb0e0 u0 com.android.providers.downloads/.DownloadProvider}
+    proc=ProcessRecord{4224e3c8 588:android.process.media/u0a10012}
+    authority=downloads
+  * ContentProviderRecord{422eb1b8 u0 com.android.providers.drm/.DrmProvider}
+    proc=ProcessRecord{4224e3c8 588:android.process.media/u0a10012}
+    authority=drm
+  * ContentProviderRecord{42474a28 u0 com.android.providers.calendar/.CalendarProvider2}
+    proc=ProcessRecord{425198e8 870:com.android.providers.calendar/u0a10007}
+    authority=com.android.calendar
+    1 connections, 0 external handles
+      -> 1061:com.android.calendar/u0a10006 s1/1 u0/4 +4m58s722ms
+  * ContentProviderRecord{42463290 u0 org.mozilla.firefox/org.mozilla.gecko.db.SearchHistoryProvider}
+    proc=ProcessRecord{42485fa8 1032:org.mozilla.firefox/u0a10051}
+    authority=org.mozilla.firefox.db.searchhistory
+  * ContentProviderRecord{42519d18 u0 me.onemobile.android/.download.DownloadProvider}
+    proc=ProcessRecord{425095f8 791:me.onemobile.android/u0a10050}
+    authority=me.onemobile.android.download
+  * ContentProviderRecord{42463348 u0 org.mozilla.firefox/org.mozilla.gecko.db.FormHistoryProvider}
+    proc=ProcessRecord{42485fa8 1032:org.mozilla.firefox/u0a10051}
+    authority=org.mozilla.firefox.db.formhistory
+  * ContentProviderRecord{424b7180 u0 com.android.exchange/.provider.ExchangeDirectoryProvider}
+    proc=ProcessRecord{423be1d8 938:com.android.exchange/u0a10014}
+    authority=com.android.exchange.directory.provider
+  * ContentProviderRecord{422d4198 u0 org.mozilla.firefox/org.mozilla.gecko.db.HomeProvider}
+    proc=ProcessRecord{42485fa8 1032:org.mozilla.firefox/u0a10051}
+    authority=org.mozilla.firefox.db.home
+  * ContentProviderRecord{422e95e8 u0 com.android.providers.contacts/.ContactsProvider2}
+    proc=ProcessRecord{423b52b8 604:android.process.acore/u0a10000}
+    launchingApp=ProcessRecord{423b52b8 604:android.process.acore/u0a10000}
+    authority=contacts;com.android.contacts
+  * ContentProviderRecord{4251a020 u0 me.onemobile.android/.search.OneMobileSuggestionProvider}
+    proc=ProcessRecord{425095f8 791:me.onemobile.android/u0a10050}
+    authority=me.onemobile.android.searchsuggestion
+  * ContentProviderRecord{42477130 u0 com.android.providers.telephony/.MmsSmsProvider}
+    proc=ProcessRecord{42462b50 629:com.android.phone/1001}
+    authority=mms-sms
+  * ContentProviderRecord{422d4250 u0 org.mozilla.firefox/org.mozilla.gecko.db.BrowserProvider}
+    proc=ProcessRecord{42485fa8 1032:org.mozilla.firefox/u0a10051}
+    authority=org.mozilla.firefox.db.browser
+  * ContentProviderRecord{423ac168 u0 com.android.providers.contacts/.CallLogProvider}
+    proc=ProcessRecord{423b52b8 604:android.process.acore/u0a10000}
+    authority=call_log
+  * ContentProviderRecord{423abef0 u0 com.android.providers.userdictionary/.UserDictionaryProvider}
+    proc=ProcessRecord{423b52b8 604:android.process.acore/u0a10000}
+    authority=user_dictionary
+  * ContentProviderRecord{422d4308 u0 org.mozilla.firefox/org.mozilla.gecko.GeckoProfilesProvider}
+    proc=ProcessRecord{42485fa8 1032:org.mozilla.firefox/u0a10051}
+    authority=org.mozilla.firefox.profiles
+ 
+ACTIVITY MANAGER SERVICES (dumpsys activity services)
+  User 0 active services:
+  * ServiceRecord{422cc7d8 u0 com.android.phone/.TelephonyDebugService}
+    app=ProcessRecord{42462b50 629:com.android.phone/1001}
+    created=-5m7s50ms started=true connections=0
+  * ServiceRecord{424e4d28 u0 com.android.bluetooth/.pbap.BluetoothPbapService}
+    app=null
+    created=-5m6s709ms started=false connections=1
+    Connections:
+      act=android.bluetooth.IBluetoothPbap -> 740:com.android.settings/1000
+  * ServiceRecord{423b3380 u0 com.android.location.fused/.FusedLocationService}
+    app=ProcessRecord{423bb6c0 759:com.android.location.fused/u0a10016}
+    created=-5m7s39ms started=false connections=1
+    Connections:
+      act=com.android.location.service.FusedLocationProvider pkg=com.android.location.fused -> 397:system/1000
+  * ServiceRecord{424ba548 u0 com.android.smspush/.WapPushManager}
+    app=ProcessRecord{4224cf30 734:com.android.smspush/u0a10049}
+    created=-5m7s217ms started=false connections=1
+    Connections:
+      act=com.android.internal.telephony.IWapPushManager -> 629:com.android.phone/1001
+  * ServiceRecord{4246b498 u0 com.android.providers.media/.MtpService}
+    app=ProcessRecord{4224e3c8 588:android.process.media/u0a10012}
+    created=-3m35s693ms started=true connections=1
+    Connections:
+       -> 588:android.process.media/u0a10012
+  * ServiceRecord{424af378 u0 Leica.ZenoConnect/leica.zeno.LeicaLocationService}
+    app=ProcessRecord{424afc00 690:Leica.ZenoConnect/1000}
+    created=-5m7s659ms started=true connections=1
+    Connections:
+      act=com.leica.zeno.LeicaLocationService -> 397:system/1000
+  * ServiceRecord{4228d8b0 u0 com.android.bluetooth/.pan.PanService}
+    app=null
+    created=-5m8s996ms started=false connections=2
+    Connections:
+      act=android.bluetooth.IBluetoothPan -> 397:system/1000
+      act=android.bluetooth.IBluetoothPan -> 740:com.android.settings/1000
+  * ServiceRecord{424ec338 u0 com.android.stk/.StkAppService}
+    app=ProcessRecord{42462b50 629:com.android.phone/1001}
+    created=-4m59s231ms started=true connections=0
+  * ServiceRecord{42468e98 u0 com.android.systemui/.LoadAverageService}
+    app=ProcessRecord{422fcbc0 526:com.android.systemui/u0a10045}
+    created=-4m59s228ms started=true connections=0
+  * ServiceRecord{424e81c8 u0 me.onemobile.android/.download.DownloadService}
+    app=ProcessRecord{425095f8 791:me.onemobile.android/u0a10050}
+    created=-5m5s337ms started=true connections=0
+  * ServiceRecord{42459b20 u0 com.android.inputmethod.latin/.LatinIME}
+    app=ProcessRecord{4245a3d8 620:com.android.inputmethod.latin/u0a10021}
+    created=-5m7s954ms started=false connections=1
+    Connections:
+      act=android.view.InputMethod -> 397:system/1000
+  * ServiceRecord{423aae00 u0 com.android.systemui/.ImageWallpaper}
+    app=ProcessRecord{422fcbc0 526:com.android.systemui/u0a10045}
+    created=-5m7s990ms started=false connections=1
+    Connections:
+      act=android.service.wallpaper.WallpaperService -> 397:system/1000
+  * ServiceRecord{42513e88 u0 com.android.bluetooth/.a2dp.A2dpService}
+    app=null
+    created=-5m5s994ms started=false connections=1
+    Connections:
+      act=android.bluetooth.IBluetoothA2dp -> 397:system/1000
+  * ServiceRecord{422fc450 u0 com.android.systemui/.SystemUIService}
+    app=ProcessRecord{422fcbc0 526:com.android.systemui/u0a10045}
+    created=-5m8s620ms started=true connections=0
+  * ServiceRecord{424e8cc0 u0 com.android.bluetooth/.hid.HidService}
+    app=null
+    created=-5m6s745ms started=false connections=1
+    Connections:
+      act=android.bluetooth.IBluetoothInputDevice -> 740:com.android.settings/1000
+  * ServiceRecord{4246d210 u0 com.android.bluetooth/.hfp.HeadsetService}
+    app=null
+    created=-5m6s912ms started=false connections=3
+    Connections:
+      act=android.bluetooth.IBluetoothHeadset -> 397:system/1000
+      act=android.bluetooth.IBluetoothHeadset -> 629:com.android.phone/1001
+      act=android.bluetooth.IBluetoothHeadset -> 629:com.android.phone/1001
+  * ServiceRecord{424c4d90 u0 com.android.phone/.BluetoothPhoneService}
+    app=ProcessRecord{42462b50 629:com.android.phone/1001}
+    created=-5m6s965ms started=true connections=1
+    Connections:
+       -> 629:com.android.phone/1001
+ 
+ACTIVITY MANAGER ACTIVITIES (dumpsys activity activities)
+  Main stack:
+    TaskRecord{42247da8 #4 A org.mozilla.firefox.BROWSER U 0}
+    Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10600000 cmp=org.mozilla.firefox/org.mozilla.gecko.BrowserApp }
+      Hist #3: ActivityRecord{42451648 u0 org.mozilla.firefox/.App}
+        Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=org.mozilla.firefox/.App bnds=[396,703][479,786] }
+        ProcessRecord{42485fa8 1032:org.mozilla.firefox/u0a10051}
+    TaskRecord{4246feb8 #2 A com.android.launcher U 0}
+    Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10600000 cmp=com.android.launcher/com.android.launcher2.Launcher }
+      Hist #2: ActivityRecord{4246e008 u0 com.android.launcher/com.android.launcher2.Launcher}
+        Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000000 cmp=com.android.launcher/com.android.launcher2.Launcher }
+        ProcessRecord{42471180 647:com.android.launcher/u0a10022}
+    TaskRecord{423b7240 #5 I com.android.settings/.Settings$WifiSettingsActivity U 0}
+    Intent { act=android.settings.WIFI_SETTINGS flg=0x14800000 cmp=com.android.settings/.Settings$WifiSettingsActivity }
+      Hist #1: ActivityRecord{423b7100 u0 com.android.settings/.Settings$WifiSettingsActivity}
+        Intent { act=android.settings.WIFI_SETTINGS flg=0x14800000 cmp=com.android.settings/.Settings$WifiSettingsActivity }
+        ProcessRecord{4229df78 740:com.android.settings/1000}
+    TaskRecord{423f6390 #3 A com.android.settings U 0}
+    Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.android.settings/.Settings$DevelopmentSettingsActivity }
+      Hist #0: ActivityRecord{424b5bc8 u0 com.android.settings/.DevelopmentSettings}
+        Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.android.settings/.DevelopmentSettings bnds=[0,182][480,277] }
+        ProcessRecord{4229df78 740:com.android.settings/1000}
+ 
+  Running activities (most recent first):
+    TaskRecord{42247da8 #4 A org.mozilla.firefox.BROWSER U 0}
+      Run #3: ActivityRecord{42451648 u0 org.mozilla.firefox/.App}
+    TaskRecord{4246feb8 #2 A com.android.launcher U 0}
+      Run #2: ActivityRecord{4246e008 u0 com.android.launcher/com.android.launcher2.Launcher}
+    TaskRecord{423b7240 #5 I com.android.settings/.Settings$WifiSettingsActivity U 0}
+      Run #1: ActivityRecord{423b7100 u0 com.android.settings/.Settings$WifiSettingsActivity}
+    TaskRecord{423f6390 #3 A com.android.settings U 0}
+      Run #0: ActivityRecord{424b5bc8 u0 com.android.settings/.DevelopmentSettings}
+ 
+  mResumedActivity: ActivityRecord{42451648 u0 org.mozilla.firefox/.App}
+  mFocusedActivity: ActivityRecord{42451648 u0 org.mozilla.firefox/.App}
+
+  Recent tasks:
+  * Recent #0: TaskRecord{42247da8 #4 A org.mozilla.firefox.BROWSER U 0}
+  * Recent #1: TaskRecord{4246feb8 #2 A com.android.launcher U 0}
+  * Recent #2: TaskRecord{423b7240 #5 I com.android.settings/.Settings$WifiSettingsActivity U 0}
+  * Recent #3: TaskRecord{423f6390 #3 A com.android.settings U 0}
+ 
+ACTIVITY MANAGER RUNNING PROCESSES (dumpsys activity processes)
+  Process LRU list (sorted by oom_adj):
+    PERS # 5: adj=sys  /F  trm= 0 397:system/1000 (fixed)
+    PERS #17: adj=pers /F  trm= 0 629:com.android.phone/1001 (fixed)
+    PERS # 3: adj=pers /F  trm= 0 526:com.android.systemui/u0a10045 (fixed)
+    Proc # 7: adj=fore /FA trm= 0 1032:org.mozilla.firefox/u0a10051 (top-activity)
+    Proc #16: adj=vis  /F  trm= 0 734:com.android.smspush/u0a10049 (service)
+        com.android.smspush/.WapPushManager<=Proc{629:com.android.phone/1001}
+    Proc # 2: adj=vis  /FS trm= 0 690:Leica.ZenoConnect/1000 (service)
+        Leica.ZenoConnect/leica.zeno.LeicaLocationService<=Proc{397:system/1000}
+    Proc # 4: adj=prcp /F  trm= 0 620:com.android.inputmethod.latin/u0a10021 (service)
+        com.android.inputmethod.latin/.LatinIME<=Proc{397:system/1000}
+    Proc # 1: adj=prcp /B  trm= 0 759:com.android.location.fused/u0a10016 (service)
+        com.android.location.fused/.FusedLocationService<=Proc{397:system/1000}
+    Proc # 6: adj=svc  /B  trm= 0 791:me.onemobile.android/u0a10050 (started-services)
+    Proc # 9: adj=home /B  trm= 0 647:com.android.launcher/u0a10022 (home)
+    Proc #10: adj=prev /B  trm= 0 740:com.android.settings/1000 (previous)
+    Proc # 8: adj=svcb /B  trm= 0 588:android.process.media/u0a10012 (started-services)
+    Proc #11: adj=bak  /B  trm= 0 1161:com.android.musicfx/u0a10027 (bg-empty)
+    Proc # 0: adj=bak  /B  trm= 0 1413:org.mozilla.firefox.UpdateService/u0a10051 (bg-empty)
+    Proc #13: adj=bak+2/B  trm= 0 1061:com.android.calendar/u0a10006 (bg-empty)
+    Proc #12: adj=bak+2/B  trm= 0 870:com.android.providers.calendar/u0a10007 (bg-empty)
+    Proc #15: adj=bak+4/B  trm= 0 1045:com.yanyan.cputemp/u0a10054 (bg-empty)
+    Proc #14: adj=bak+4/B  trm= 0 900:com.android.deskclock/u0a10011 (bg-empty)
+    Proc #23: adj=bak+6/B  trm= 0 714:com.android.music/u0a10026 (bg-empty)
+    Proc #22: adj=bak+6/B  trm= 0 604:android.process.acore/u0a10000 (bg-empty)
+    Proc #21: adj=bak+6/B  trm= 0 887:com.android.contacts/u0a10000 (bg-empty)
+    Proc #20: adj=bak+6/B  trm= 0 971:device.apps.startup/1000 (bg-empty)
+    Proc #19: adj=bak+6/B  trm= 0 938:com.android.exchange/u0a10014 (bg-empty)
+    Proc #18: adj=bak+6/B  trm= 0 919:com.android.email/u0a10013 (bg-empty)
+
+  mStartedUsers:
+    User #0: mState=RUNNING
+  mStartedUserArray: [0]
+  mUserLru: [0]
+  mHomeProcess: ProcessRecord{42471180 647:com.android.launcher/u0a10022}
+  mPreviousProcess: ProcessRecord{4229df78 740:com.android.settings/1000}
+  mConfiguration: {1.0 310mcc410mnc en_US ldltr sw320dp w320dp h502dp 240dpi nrml port finger -keyb/v/h -nav/h s.6}

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<decals>
+    <decal>
+        <decalnumber>0200</decalnumber>
+        <firstname>Alyse</firstname>
+        <lastname>Bennett</lastname>
+        <remotenumber>10751</remotenumber>
+    </decal>
+    <decal>
+        <decalnumber>0201</decalnumber>
+        <firstname>Alanna</firstname>
+        <lastname>Chapman</lastname>
+        <remotenumber>10751</remotenumber>
+    </decal>
+    <decal>
+        <decalnumber>0202</decalnumber>
+        <firstname>Alexis</firstname>
+        <lastname>Cash</lastname>
+        <remotenumber>10751</remotenumber>
+    </decal>
+    <decal>
+        <decalnumber>0203</decalnumber>
+        <firstname>Amelia</firstname>
+        <lastname>Jennings</lastname>
+        <remotenumber>10751</remotenumber>
+    </decal>
+    <decal>
+        <decalnumber>0204</decalnumber>
+        <firstname>Andrew</firstname>
+        <lastname>Dawson</lastname>
+        <remotenumber>10751</remotenumber>
+    </decal>
+</decals>
